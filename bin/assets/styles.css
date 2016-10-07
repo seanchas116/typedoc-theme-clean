@@ -21,3 +21,6 @@ h3.member-title {
 ul {
   list-style-type: none;
 }
+.comment {
+    margin-left: 10px;
+}
