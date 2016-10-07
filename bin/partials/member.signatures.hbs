@@ -1,8 +1,4 @@
-<ul>
-    {{#each signatures}}
-        <li>
-            <h3>{{> member.signature.title }}</h3>
-            {{> member.signature.body }}
-        </li>
-    {{/each}}
-</ul>
+{{#each signatures}}
+    <h3>{{> member.signature.title }}</h3>
+    {{> member.signature.body }}
+{{/each}}
