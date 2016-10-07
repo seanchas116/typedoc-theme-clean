@@ -1,7 +1,7 @@
 {{#if getSignature}}
     {{#with getSignature}}
         {{#compact}}
-            <h3>
+            <h3 class="member-title">
                 <span>get</span>&nbsp;
                 {{../name}}
                 {{> member.signature.title hideName=true }}
@@ -13,7 +13,7 @@
 {{#if setSignature}}
     {{#with setSignature}}
         {{#compact}}
-            <h3>
+            <h3 class="member-title">
                 <span>set</span>&nbsp;
                 {{../name}}
                 {{> member.signature.title hideName=true }}
