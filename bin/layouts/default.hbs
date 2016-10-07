@@ -10,10 +10,9 @@
 </head>
 <body>
 
-{{> header}}
-
 <div class="main">
     <nav class="navigation">
+        <a href="{{relativeURL "index.html"}}" class="title">{{project.name}}</a>
         <ul>
             {{#each toc.children}}
                 {{> toc.root}}
@@ -24,8 +23,6 @@
         {{{contents}}}
     </div>
 </div>
-
-{{> footer}}
 
 {{> analytics}}
 

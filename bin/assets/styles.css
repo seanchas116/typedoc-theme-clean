@@ -4,14 +4,16 @@ body {
 }
 .main {
     display: flex;
+    height: 100vh;
 }
 .content {
     flex: 1;
-    margin: 20px;
+    padding: 20px;
+    overflow-y: scroll;
 }
 .navigation {
     width: 250px;
-    margin: 20px;
+    padding: 20px;
 }
 h2.member-group {
     color: #9e9e9e;
@@ -26,6 +28,7 @@ h3.member-title {
 ul {
   list-style-type: none;
   padding-left: 20px;
+  margin: 0;
 }
 .comment {
     margin-left: 10px;
