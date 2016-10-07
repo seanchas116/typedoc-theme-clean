@@ -24,3 +24,9 @@ ul {
 .comment {
     margin-left: 10px;
 }
+pre {
+    background: #f9f9f9;
+    padding: 10px;
+    font-family: 'inconsolata';
+    font-size: 14px;
+}
