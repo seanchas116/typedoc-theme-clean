@@ -25,6 +25,9 @@ body {
     font-size: 16px;
     margin-top: 30px;
 }
+.member-title .default-value {
+    font-weight: normal;
+}
 ul {
   list-style-type: none;
   padding-left: 20px;
